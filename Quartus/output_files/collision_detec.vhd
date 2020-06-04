@@ -1,0 +1,67 @@
+--  LIBRARY IEEE;
+--USE IEEE.STD_LOGIC_1164.all;
+--USE  IEEE.STD_LOGIC_ARITH.all;
+--USE  IEEE.STD_LOGIC_UNSIGNED.all;
+--
+--entity collision_detec is
+--	PORT( SIGNAL  ball_on, pipe_on, pipe_on1, clk : IN std_logic;
+--			SIGNAL pixel_row			: IN std_logic_vector(9 DOWNTO 0);
+--			SIGNAL collide_out : 	OUT std_logic );
+--end entity collision_detec;
+--
+--architecture behaviour of collision_detec is
+--
+--signal collide : std_logic := '0';
+--signal detect: std_logic := '1';
+--signal count : integer range 0 to 50 := 0;
+--signal count_start : std_logic := '0';
+--
+--BEGIN
+--	collision : PROCESS(ball_on, pipe_on, pipe_on1)
+--	BEGIN
+--		if(detect = '1') then
+--			IF( (ball_on = '1') AND (pipe_on = '1') ) THEN
+--				collide <= '1';
+--			ELSIF( (ball_on = '1') AND (pipe_on1 = '1') ) THEN
+--				collide <= '1';
+--			ELSE
+--				collide <= '0';
+--			END IF;
+--
+--		end if;
+--		
+--	END PROCESS;
+--	collide_out <= collide;
+--
+--	
+--	detection : process(collide, clk) 
+--	begin
+--		if(rising_edge(collide)) then
+--			count_start <= '1';
+--			detect <= '0'; 
+--		elsif (rising_edge(clk)) then
+--			if(count_start = '1') then
+--			
+--				count <= count + 1;
+--
+-- 				if (count = 40) then
+--					detect <= '1';
+--					count_start <= '0';
+--					count <= 0;
+--				
+--				end if;
+--			end if; 
+--		end if;
+--	end process detection;
+--
+--
+--	counting: process(clk) 
+--	begin
+--		if(rising_edge(clk)) then
+--			
+--
+--			end if;
+--
+--		end if;  
+--	end process counting;
+--END ARCHITECTURE behaviour; 

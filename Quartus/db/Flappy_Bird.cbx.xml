@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Flappy_Bird">
+		<CBX_INST_ENTRY INSTANCE_NAME="|SwitchScreens|ChooseScreen:inst5|DisplayText:MENU|char_rom:char|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_kt91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SwitchScreens|DE0_display:inst8|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_lhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SwitchScreens|DE0_display:inst8|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_3bm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SwitchScreens|altpll0:inst|altpll:altpll_component" CBX_FILE_NAME="altpll0_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SwitchScreens|DE0_display:inst8|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_jhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SwitchScreens|DE0_display:inst8|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_3bm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SwitchScreens|DE0_display:inst8|lpm_divide:Mod3" CBX_FILE_NAME="lpm_divide_3bm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
